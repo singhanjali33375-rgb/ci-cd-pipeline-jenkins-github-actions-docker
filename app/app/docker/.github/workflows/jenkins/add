@@ -1,0 +1,7 @@
+README.md
+.gitignore
+app/app.py
+app/requirements.txt
+docker/Dockerfile
+.github/workflows/ci.yml
+jenkins/Jenkinsfile
