@@ -33,6 +33,25 @@ It automates build, test, containerization, and deployment of an application.
 git clone <repo-url>
 docker build -t app-name .
 docker run -p 8080:8080 app-name
+ci-cd-pipeline-jenkins-github-actions-docker/
+│
+├── README.md
+├── .gitignore
+│
+├── app/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── docker/
+│   └── Dockerfile
+│
+├── jenkins/
+│   └── Jenkinsfile
+│
+└── .github/
+    └── workflows/
+        └── ci.yml
+
 📈 Future Improvements
 Add Kubernetes deployment
 Add monitoring (Prometheus/Grafana)
